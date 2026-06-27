@@ -33,7 +33,7 @@ void sendSensorData()
 
   // Display ADC value on LCD
   lcd.setCursor(0, 0);
-  lcd.print("LDR:");
+  lcd.print("LDR VALUE:");
   lcd.print(ldrValue);
   lcd.print("    ");
 
